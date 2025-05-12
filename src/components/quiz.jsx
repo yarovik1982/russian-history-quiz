@@ -129,6 +129,8 @@ const Quiz = () => {
 
     return (
         <div className="quiz">
+            <h1 className='App-title'>Викторина по истории России</h1>
+            <h3>Правила игры:</h3>
             <div className="card">
                 <h2 className="card-title">{questions[currentQuestion].question}</h2>
                 <form className="options-container">

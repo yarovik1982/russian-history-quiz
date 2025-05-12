@@ -1,14 +1,12 @@
-
+import Header from './components/Header';
 import Quiz from './components/quiz';
 
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <h1 className='App-title'>Викторина по истории России</h1>
+            <Header/>
                 <Quiz />
-            </header>
         </div>
     );
 }

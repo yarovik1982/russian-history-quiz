@@ -1,9 +1,9 @@
-:root{
+/* :root{
   --base-fs:clamp(1rem,2vw + 1rem, 2rem );
 }
 .App {
   text-align: center;
-  font-size: clamp(1rem, 2vw + 1rem, 2rem); /* Размер шрифта от 1rem до 2rem, в зависимости от ширины экрана */
+  font-size: clamp(1rem, 2vw + 1rem, 2rem); 
 }
 
 .App-header {
@@ -28,7 +28,7 @@ button {
   color: white;
   background-color: #007bff;
   transition: background-color 0.3s ease;
-  font-size: clamp(0.9rem, 1.5vw + 0.9rem, 1.2rem); /* Размер шрифта кнопок от 0.9rem до 1.2rem */
+  font-size: clamp(0.9rem, 1.5vw + 0.9rem, 1.2rem); 
 }
 
 button:hover {
@@ -38,4 +38,4 @@ button:hover {
 button:disabled {
   background-color: #cccccc;
   cursor: not-allowed;
-}
+} */
